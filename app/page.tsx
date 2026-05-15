@@ -6,12 +6,15 @@ import { Features } from "@/components/Features";
 
 export default function Home() {
   return (
-    <main className="min-h-screen overflow-hidden bg-[#07070c] text-white">
+    <>
       <BackgroundGlow />
       <Header />
-      <Hero />
-      <ProductPreview />
-      <Features />
-    </main>
+
+      <main className="min-h-screen overflow-x-hidden bg-[#07070c] text-white">
+        <Hero />
+        <ProductPreview />
+        <Features />
+      </main>
+    </>
   );
 }

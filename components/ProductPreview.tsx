@@ -4,7 +4,7 @@ import { AssistantPanel } from "./product-preview/AssistantPanel";
 
 export function ProductPreview() {
   return (
-    <section id="product" className="relative z-10 px-6 py-20">
+    <section id="product" className="relative z-10 px-6 pt-8 pb-24">
       <div className="mx-auto max-w-7xl">
         <div className="relative">
           <div className="absolute -inset-8 rounded-[2.75rem] bg-gradient-to-r from-violet-500/30 via-cyan-500/15 to-fuchsia-500/25 blur-3xl" />
