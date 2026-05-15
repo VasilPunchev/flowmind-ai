@@ -1,36 +1,201 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# FlowMind AI
 
-## Getting Started
+FlowMind AI is a premium AI SaaS landing page concept built with Next.js and Tailwind CSS.
 
-First, run the development server:
+The project presents a modern AI productivity workspace with a clean dark interface, product preview UI, bento feature grid, pricing section, FAQ, final CTA and responsive mobile layout.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+## Live Demo
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+[View Live Project](https://flowmind-ai-sandy.vercel.app/)
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## GitHub Repository
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+[View Repository](https://github.com/VasilPunchev/flowmind-ai)
 
-## Learn More
+## Preview
 
-To learn more about Next.js, take a look at the following resources:
+Screenshots will be added here.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## About the Project
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+FlowMind AI is designed as a fictional AI productivity SaaS product.
 
-## Deploy on Vercel
+The goal of the project is to demonstrate modern frontend skills, clean component structure, responsive design and premium product-style UI.
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+The landing page includes:
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+- Premium dark SaaS visual design
+- Fixed glass navigation header
+- Hero section with gradient typography
+- AI product dashboard preview
+- Bento-style feature section
+- Pricing cards
+- FAQ section
+- Final call-to-action section
+- Responsive mobile layout
+- Vercel deployment
+
+## Tech Stack
+
+- Next.js
+- React
+- TypeScript
+- Tailwind CSS
+- Vercel
+- Git / GitHub
+
+## Project Structure
+
+```text
+app/
+  page.tsx
+  layout.tsx
+  globals.css
+  icon.svg
+
+components/
+  BackgroundGlow.tsx
+  Header.tsx
+  Hero.tsx
+  ProductPreview.tsx
+  Features.tsx
+  Pricing.tsx
+  FAQ.tsx
+  FinalCTA.tsx
+  Footer.tsx
+
+components/product-preview/
+  AppSidebar.tsx
+  FocusPanel.tsx
+  AssistantPanel.tsx
+  TaskList.tsx
+
+data/
+  faq.ts
+  features.ts
+  pricing.ts
+  tasks.ts
+
+Да, копирай цялото това в README.md:
+
+# FlowMind AI
+
+FlowMind AI is a premium AI SaaS landing page concept built with Next.js and Tailwind CSS.
+
+The project presents a modern AI productivity workspace with a clean dark interface, product preview UI, bento feature grid, pricing section, FAQ, final CTA and responsive mobile layout.
+
+## Live Demo
+
+[View Live Project](https://flowmind-ai-sandy.vercel.app/)
+
+## GitHub Repository
+
+[View Repository](https://github.com/VasilPunchev/flowmind-ai)
+
+## Preview
+
+Screenshots will be added here.
+
+## About the Project
+
+FlowMind AI is designed as a fictional AI productivity SaaS product.
+
+The goal of the project is to demonstrate modern frontend skills, clean component structure, responsive design and premium product-style UI.
+
+The landing page includes:
+
+- Premium dark SaaS visual design
+- Fixed glass navigation header
+- Hero section with gradient typography
+- AI product dashboard preview
+- Bento-style feature section
+- Pricing cards
+- FAQ section
+- Final call-to-action section
+- Responsive mobile layout
+- Vercel deployment
+
+## Tech Stack
+
+- Next.js
+- React
+- TypeScript
+- Tailwind CSS
+- Vercel
+- Git / GitHub
+
+## Project Structure
+
+```text
+app/
+  page.tsx
+  layout.tsx
+  globals.css
+  icon.svg
+
+components/
+  BackgroundGlow.tsx
+  Header.tsx
+  Hero.tsx
+  ProductPreview.tsx
+  Features.tsx
+  Pricing.tsx
+  FAQ.tsx
+  FinalCTA.tsx
+  Footer.tsx
+
+components/product-preview/
+  AppSidebar.tsx
+  FocusPanel.tsx
+  AssistantPanel.tsx
+  TaskList.tsx
+
+data/
+  faq.ts
+  features.ts
+  pricing.ts
+  tasks.ts
+Key Features
+Modern SaaS Landing Page
+
+The design follows a premium AI product style with dark backgrounds, soft gradients, glassmorphism cards, subtle borders and strong visual hierarchy.
+
+Product Preview UI
+
+The landing page includes a custom-built fake AI workspace interface with sidebar navigation, focus score, AI summary, priority tasks and assistant panel.
+
+Component-Based Architecture
+
+The UI is split into reusable components to keep the project organized, scalable and easy to maintain.
+
+Fully Responsive Layout
+
+The page is optimized for both desktop and mobile screens, with adjusted spacing, card layout and navigation behavior.
+
+What I Learned
+
+While building this project, I practiced:
+
+- Structuring a Next.js project
+- Creating reusable React components
+- Working with Tailwind utility classes
+- Building responsive layouts
+- Designing modern SaaS-style UI
+- Deploying a project to Vercel
+- Using Git and GitHub workflow
+Future Improvements
+
+Planned improvements for future versions:
+
+- Add a dashboard demo route
+- Add login/register UI pages
+- Add Supabase authentication
+- Store tasks, notes and projects in a database
+- Add real AI API integration
+
+Author
+
+Vasil Punchev
+
+GitHub: VasilPunchev
+Live Project: https://flowmind-ai-sandy.vercel.app/
