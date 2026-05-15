@@ -27,7 +27,7 @@ const featureCards = [
 
 export function Features() {
   return (
-    <section id="features" className="relative z-10 px-6 py-28">
+    <section id="features" className="relative z-10 px-6 py-20 md:py-28">
       <div className="mx-auto max-w-7xl">
         <div className="mx-auto max-w-3xl text-center">
           <p className="text-sm font-medium text-violet-300">

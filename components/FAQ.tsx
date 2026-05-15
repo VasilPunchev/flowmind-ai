@@ -2,7 +2,7 @@ import { faqItems } from "@/data/faq";
 
 export function FAQ() {
   return (
-    <section className="relative z-10 px-6 py-28">
+    <section className="relative z-10 px-6 py-20 md:py-28">
       <div className="mx-auto max-w-5xl">
         <div className="mx-auto max-w-3xl text-center">
           <p className="text-sm font-medium text-violet-300">

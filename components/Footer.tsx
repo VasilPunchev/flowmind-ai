@@ -13,7 +13,7 @@ export function Footer() {
           </span>
         </a>
 
-        <nav className="flex flex-wrap items-center gap-5 text-sm text-white/45">
+        <nav className="flex flex-wrap items-center gap-x-5 gap-y-3 text-sm text-white/45">
           {footerLinks.map((link) => (
             <a
               key={link}

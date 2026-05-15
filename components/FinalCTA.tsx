@@ -1,8 +1,8 @@
 export function FinalCTA() {
   return (
-    <section className="relative z-10 px-6 py-20">
+    <section className="relative z-10 px-4 py-16 md:px-6 md:py-20">
       <div className="mx-auto max-w-7xl">
-        <div className="relative overflow-hidden rounded-[2rem] border border-white/10 bg-white/[0.05] px-8 py-16 text-center backdrop-blur-xl md:px-16">
+        <div className="relative overflow-hidden rounded-[2rem] border border-white/10 bg-white/[0.05] px-6 py-12 text-center backdrop-blur-xl md:px-16 md:py-16">
           <div className="absolute left-1/2 top-0 h-64 w-96 -translate-x-1/2 rounded-full bg-violet-500/25 blur-3xl" />
           <div className="absolute bottom-0 right-0 h-64 w-64 rounded-full bg-cyan-500/20 blur-3xl" />
 

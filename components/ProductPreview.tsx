@@ -4,7 +4,7 @@ import { AssistantPanel } from "./product-preview/AssistantPanel";
 
 export function ProductPreview() {
   return (
-    <section id="product" className="relative z-10 px-6 pt-8 pb-24">
+    <section id="product" className="relative z-10 px-4 pt-6 pb-16 md:px-6 md:pt-8 md:pb-24">
       <div className="mx-auto max-w-7xl">
         <div className="relative">
           <div className="absolute -inset-8 rounded-[2.75rem] bg-gradient-to-r from-violet-500/30 via-cyan-500/15 to-fuchsia-500/25 blur-3xl" />
@@ -24,7 +24,7 @@ export function ProductPreview() {
               <div className="text-xs text-white/35">Live AI preview</div>
             </div>
 
-            <div className="grid min-h-[600px] grid-cols-1 lg:grid-cols-[250px_1fr_340px]">
+            <div className="grid min-h-0 grid-cols-1 lg:min-h-[600px] lg:grid-cols-[250px_1fr_340px]">
               <AppSidebar />
               <FocusPanel />
               <AssistantPanel />

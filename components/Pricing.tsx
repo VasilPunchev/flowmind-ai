@@ -2,7 +2,7 @@ import { pricingPlans } from "@/data/pricing";
 
 export function Pricing() {
   return (
-    <section id="pricing" className="relative z-10 px-6 py-28">
+    <section id="pricing" className="relative z-10 px-6 py-20 md:py-28">
       <div className="mx-auto max-w-7xl">
         <div className="mx-auto max-w-3xl text-center">
           <p className="text-sm font-medium text-cyan-200">
