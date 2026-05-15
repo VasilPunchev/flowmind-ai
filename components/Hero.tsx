@@ -11,7 +11,9 @@ export function Hero() {
           <h1 className="mx-auto max-w-5xl text-balance text-5xl font-semibold leading-[1.02] tracking-[-0.06em] text-white md:text-7xl lg:text-8xl">
             Think clearly.
             <br />
-            Execute faster with AI.
+            <span className="bg-gradient-to-r from-white via-violet-100 to-cyan-100 bg-clip-text text-transparent">
+              Execute faster with AI.
+            </span>
           </h1>
 
           <p className="mx-auto mt-7 max-w-2xl text-pretty text-lg leading-8 text-white/58">
@@ -33,6 +35,19 @@ export function Hero() {
             >
               View product
             </a>
+          </div>
+          <div className="mt-10 flex flex-wrap items-center justify-center gap-6 text-sm text-white/40">
+            <div>
+              <span className="font-semibold text-white">12k+</span> tasks organized
+            </div>
+            <div className="hidden h-4 w-px bg-white/10 sm:block" />
+            <div>
+              <span className="font-semibold text-white">4.9/5</span> user clarity score
+            </div>
+            <div className="hidden h-4 w-px bg-white/10 sm:block" />
+            <div>
+              <span className="font-semibold text-white">2.8x</span> faster planning
+            </div>
           </div>
         </div>
       </div>
